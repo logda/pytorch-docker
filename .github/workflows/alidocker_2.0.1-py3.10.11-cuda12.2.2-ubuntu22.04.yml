@@ -22,7 +22,6 @@ on:
       - main
     paths:
       - 'docker/ubuntu/**'
-      - '.github/workflows/docker_build_2.0.1_py3.10.11_cuda11.8.0_ubuntu22.04.yml'
 
 jobs:
   build:
