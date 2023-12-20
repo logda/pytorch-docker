@@ -1,5 +1,8 @@
 name: Build(alidocker_2.0.1-py3.10.11-cuda12.2.2-ubuntu22.04)
 
+on:
+  workflow_dispatch:
+    
 env:
   BASE_IMAGE: "nvidia/cuda:12.2.2-cudnn8-devel-ubuntu22.04"
 
