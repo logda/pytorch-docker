@@ -8,6 +8,6 @@ docker build \
     --build-arg TORCHAUDIO_VERSION=${TORCHAUDIO_VERSION} \
     --build-arg TORCHAUDIO_VERSION_SUFFIX=${TORCHAUDIO_VERSION_SUFFIX} \
     --build-arg PYTORCH_DOWNLOAD_URL=${PYTORCH_DOWNLOAD_URL} \
-    -t logda/pytorch:${IMAGE_TAG} \
+    -t ${DOCKERHUB_URL}:${IMAGE_TAG} \
     -f docker/ubuntu/Dockerfile \
     .
